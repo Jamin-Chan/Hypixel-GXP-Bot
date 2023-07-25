@@ -49,7 +49,7 @@ async def invite(interaction: discord.Interaction):
 
 #"""
 
-
+#shows all commands available from this bot
 @tree.command(name="help")
 async def help(interaction: discord.Interaction):
     helpEmbed = discord.Embed(title="**:weary: Commands :weary:**",
