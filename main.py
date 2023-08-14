@@ -92,6 +92,9 @@ async def getweekly(interaction: discord.Interaction, hypixelguild: str):
     day8 = today - datetime.timedelta(days=0)
 
     guildInfo = functions.get_guildInfo(guildName)
+    if guildInfo["success"] == False:
+      await interaction.response.send_message("API KEY is down")
+      
     try:
         memberList = guildInfo["guild"]["members"]
         guildName = guildInfo["guild"]["name"]
