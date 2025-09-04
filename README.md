@@ -1,7 +1,7 @@
 # Hypixel GXP Bot
 
 A Python-powered Discord bot that retrieves player statistics from the **Hypixel API** and sorts them into a clean, readable **leaderboard format**.  
-Built with [discord.py](https://github.com/Jamin-Chan/Hypixel-GXP-Bot.git) and designed for easy setup and customization.
+Built with [discord.py](https://github.com/Rapptz/discord.py) and designed for easy setup and customization.
 
 ---
 
@@ -18,5 +18,5 @@ Built with [discord.py](https://github.com/Jamin-Chan/Hypixel-GXP-Bot.git) and d
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/hypixel-leaderboard-bot.git
-cd hypixel-leaderboard-bot
+git clone https://github.com/Jamin-Chan/Hypixel-GXP-Bot.git
+cd Hypixel-GXP-Bot
